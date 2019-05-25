@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Besta.cs" />
+    <Compile Include="ConcreteFactory.cs" />
+    <Compile Include="CondicaoMetereologica.cs" />
+    <Compile Include="Escort.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="Opala.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tesla.cs" />
+    <Compile Include="Veiculo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

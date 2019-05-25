@@ -10,6 +10,12 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
+            var veiculo = new ConcreteFactory().CriarVeiculo(1, CondicaoMetereologica.CHUVA);
+            Console.WriteLine(veiculo.GetType().Name);
+            veiculo.Imprimir();
+
+
+            Console.ReadKey();
         }
     }
 }
