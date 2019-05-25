@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cebola.cs" />
+    <Compile Include="AddAdicional.cs" />
+    <Compile Include="IPrato.cs" />
+    <Compile Include="Ovo.cs" />
+    <Compile Include="PratoA.cs" />
+    <Compile Include="PratoB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

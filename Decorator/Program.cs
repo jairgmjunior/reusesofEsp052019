@@ -10,6 +10,17 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
+            IPrato pratoA = new PratoA();
+            IPrato pratoB = new PratoB();
+
+            pratoA = new Ovo(pratoA);
+            pratoB = new Ovo(pratoB);
+            pratoA = new Cebola(pratoA);
+
+            Console.WriteLine($"Prato A: {pratoA.GetPreco()}");
+            Console.WriteLine($"Prato B: {pratoB.GetPreco()}");
+
+            Console.ReadKey();
         }
     }
 }
