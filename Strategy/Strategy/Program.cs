@@ -13,16 +13,15 @@ namespace Strategy
         static void Main(string[] args)
         {
             var preco = new PrecoSimples();
-            var content = new Hd();
-            var preparador = new TransmissaoUnica();
+            var tipoStreaming = new Hd();
+            var quantidadeTransmissao = new TransmissaoUnica();
 
-            var assinatura = new Assinatura(preco, content, preparador);
+            var assinatura = new Assinatura(preco, tipoStreaming, quantidadeTransmissao);
             Console.WriteLine($"Conteudo disponibilizado: {assinatura.DisponibilizarConteudo()}");
             Console.WriteLine($"Valor: {assinatura.GetPreco()}");
             assinatura.PermitirNumeroTransmissoesSimultaneas();
 
             Console.ReadKey();
-
         }
     }
 }
