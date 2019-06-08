@@ -1,0 +1,7 @@
+C:\Users\jairg\OneDrive\pos\workspace\observer\Observer\bin\Debug\Observer.exe.config
+C:\Users\jairg\OneDrive\pos\workspace\observer\Observer\bin\Debug\Observer.exe
+C:\Users\jairg\OneDrive\pos\workspace\observer\Observer\bin\Debug\Observer.pdb
+C:\Users\jairg\OneDrive\pos\workspace\observer\Observer\obj\Debug\Observer.csprojAssemblyReference.cache
+C:\Users\jairg\OneDrive\pos\workspace\observer\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
+C:\Users\jairg\OneDrive\pos\workspace\observer\Observer\obj\Debug\Observer.exe
+C:\Users\jairg\OneDrive\pos\workspace\observer\Observer\obj\Debug\Observer.pdb
